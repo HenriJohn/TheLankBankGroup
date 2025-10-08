@@ -1,0 +1,19 @@
+{
+  "name": "farm-plot-automation-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for farm plot feature using Playwright and TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["playwright", "typescript", "e2e", "testing", "farm-plot"],
+  "author": "QA Engineer HJP",
+  "license": "MIT"
+}
