@@ -3,20 +3,20 @@
 ## Manual Test Plan for Farm Plot Feature
 
 ### Core Functionality Tests
-• **User Registration & Authentication** - Verify users can register, login, and access farm plot features with proper session management
-• **Farm Plot Creation Flow** - Test complete workflow from navigation to farm plot creation page through successful submission
-• **Data Persistence** - Confirm created farm plots are saved correctly and appear in user's plot list after page refresh
-• **Farm Plot Editing** - Verify users can modify existing plot details (name, crop type, hectares) and changes are saved properly
-• **Farm Plot Deletion** - Test plot removal functionality with proper confirmation dialogs and data cleanup
+- **User Registration & Authentication** - Verify users can register, login, and access farm plot features with proper session management
+- **Farm Plot Creation Flow** - Test complete workflow from navigation to farm plot creation page through successful submission
+- **Data Persistence** - Confirm created farm plots are saved correctly and appear in user's plot list after page refresh
+- **Farm Plot Editing** - Verify users can modify existing plot details (name, crop type, hectares) and changes are saved properly
+- **Farm Plot Deletion** - Test plot removal functionality with proper confirmation dialogs and data cleanup
 
 ### Input Validation & Edge Cases
-• **Boundary Value Testing** - Test hectares field with values at boundaries (0, 0.1, 999.9, 1000, maximum system limits)
-• **Special Characters in Names** - Verify farm plot names handle Unicode characters, emojis, and special symbols correctly
-• **Crop Type Dropdown** - Test all available crop options, search functionality, and handling of custom/other crop types
-• **Form State Management** - Verify form retains data during navigation, handles browser back/forward, and manages unsaved changes
+- **Boundary Value Testing** - Test hectares field with values at boundaries (0, 0.1, 999.9, 1000, maximum system limits)
+- **Special Characters in Names** - Verify farm plot names handle Unicode characters, emojis, and special symbols correctly
+- **Crop Type Dropdown** - Test all available crop options, search functionality, and handling of custom/other crop types
+- **Form State Management** - Verify form retains data during navigation, handles browser back/forward, and manages unsaved changes
 
 ### Cross-Platform & Performance
-• **Mobile Responsiveness** - Test farm plot creation and viewing on various mobile devices and screen orientations
+- **Mobile Responsiveness** - Test farm plot creation and viewing on various mobile devices and screen orientations
 
 ---
 
